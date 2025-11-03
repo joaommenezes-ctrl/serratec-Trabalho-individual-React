@@ -1,0 +1,74 @@
+.navbarContainer {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/Navbar.jpg');
+  background-size: cover; 
+  background-position: center;
+  position: relative;
+  z-index: 20;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+
+.navbarContent {
+  width: 100%;
+  max-width: 1600px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logoArea {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 10px;
+  gap: 15px;
+}
+
+.giganteImage {
+  height: 55px;
+  object-fit: contain;
+  z-index: 10; 
+}
+
+.links {
+  display: flex;
+  gap: 40px;
+  margin-right: auto;
+  padding-left: 30px; 
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navLink:hover {
+  color: #FFD700;
+}
+
+.authButtons {
+  display: flex;
+  align-self: center;
+}
+
+.registerButton {
+  padding: 12px 18px;
+  border: 2px solid #000;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #FFB700;
+  color: #000;
+  box-sizing: content-box;
+  outline: 4px solid #FFB700;
+  outline-offset: -4px;
+}

@@ -1,0 +1,93 @@
+.pageContainer {
+  height: calc(100vh - 80px); 
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden; 
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.4); 
+  padding: 40px 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 450px;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+  
+  max-height: 90vh; 
+  overflow-y: auto; 
+  z-index: 5;
+}
+
+.logoSuperior {
+  display: none;
+}
+
+.logoImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px auto;
+  border-radius: 5px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputGroup label {
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+  letter-spacing: 0.8px;
+}
+.forgotPassword {
+  color: #fff; 
+  text-decoration: none;
+  text-align: center;
+  display: block; 
+  margin-top: 16px; 
+  font-size: 14px;
+}
+
+.forgotPassword:hover {
+  text-decoration: underline; 
+  color: #fdd000;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  
+  .formContainer {
+    padding: 30px 25px;
+    gap: 15px;
+    max-width: 400px;
+  }
+
+  .logoSuperior {
+    display: none;
+  }
+
+  .logoImage {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .inputGroup label {
+    font-size: 15px;
+  }
+}

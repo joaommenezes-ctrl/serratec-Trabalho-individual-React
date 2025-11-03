@@ -1,0 +1,213 @@
+.pageContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: 'Bebas Neue', sans-serif; 
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column; 
+  gap: 8px;
+  background-color: rgba(0, 0, 0, 0.4); 
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 650px;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+  
+  max-height: 98vh;
+  overflow-y: auto; 
+}
+
+.logoSuperior {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 150px;
+  opacity: 0.8;
+  z-index: 10;
+  filter: brightness(0) invert(1); /* Torna a imagem branca */
+}
+
+.logoImage {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 5px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.inputGroup label {
+  font-size: 15px;
+  color: #fff;
+  text-align: left;
+  letter-spacing: 0.8px;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 10px;
+}
+
+.addressContainer {
+  background-color: rgba(10, 10, 10, 0.5);
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subTitle {
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #444;
+}
+
+.addressGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 6px 10px;
+}
+
+.cep { grid-column: 1 / 3; }
+.rua { grid-column: 1 / -1; }
+.cidade { grid-column: 1 / 3; }
+.uf { grid-column: 3 / 4; }
+
+.radioGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 0;
+  align-items: center;
+  height: auto;
+  min-height: 42px;
+  box-sizing: border-box;
+}
+
+.radioOption {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.radioLabel {
+  font-size: 15px;
+  color: #fff !important;
+  font-weight: normal;
+  text-align: left;
+  letter-spacing: 0.8px;
+}
+
+.radioInput {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  background-color: #333;
+  border: 2px solid #666;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.radioInput:hover {
+  border-color: #aaa;
+}
+
+.radioInput:checked::before {
+  content: '';
+  display: block;
+  width: 9px;
+  height: 9px;
+  background-color: #fdd000; 
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.radioInput:checked {
+  border-color: #fdd000;
+}
+
+@media (max-width: 1024px) {
+  
+  .formContainer {
+    padding: 15px 20px;
+    gap: 10px;
+  }
+
+  .logoSuperior {
+    display: none;
+  }
+
+  .logoImage {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 8px;
+  }
+  
+  .inputGroup label {
+    font-size: 14px;
+  }
+  
+  .formGrid {
+    grid-template-columns: 1fr;
+    gap: 8px 0;
+  }
+  
+  .addressGrid {
+    grid-template-columns: 1fr;
+    gap: 8px 0;
+  }
+  
+  .cep, .rua, .cidade, .uf {
+    grid-column: 1 / -1;
+  }
+  
+  .radioGroup {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    gap: 8px;
+  }
+
+  .radioLabel {
+    font-size: 14px;
+  }
+
+  .radioInput {
+    width: 16px;
+    height: 16px;
+  }
+  .radioInput:checked::before {
+    width: 8px; 
+    height: 8px;
+  }
+}
