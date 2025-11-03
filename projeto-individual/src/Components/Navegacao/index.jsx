@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from './style.module.css'; 
+import { Link } from 'react-router-dom';
+import styles from './style.module.css';
 import giganteLogo from '../../assets/logo-gigante+1.png';
 
 export function Navegacao() {
@@ -8,10 +9,10 @@ export function Navegacao() {
       <div className={styles.navbarContent}>
         
         <div className={styles.logoArea}>
-          <img 
-            src={giganteLogo} 
-            alt="GIGANTE" 
-            className={styles.giganteImage} 
+          <img
+            src={giganteLogo}
+            alt="GIGANTE"
+            className={styles.giganteImage}
           />
         </div>
 
@@ -22,9 +23,11 @@ export function Navegacao() {
         </div>
 
         <div className={styles.authButtons}>
-          <button className={styles.registerButton}>
-            CADASTRE-SE
-          </button>
+          <Link to="/">
+            <button className={styles.registerButton}>
+              CADASTRE-SE
+            </button>
+          </Link>
         </div>
       </div>
     </nav>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { InputVasco } from '../../Components/Input/Index'
 import { ButtonComponent } from '../../Components/Button'
 import styles from './style.module.css'
@@ -145,7 +146,9 @@ export function Home() {
           </div>
         </div>
 
-        <ButtonComponent props="Clique e seja feliz!" />
+        <Link to="/login">
+          <ButtonComponent props="Clique e seja feliz!" />
+        </Link>
 
       </div>
 

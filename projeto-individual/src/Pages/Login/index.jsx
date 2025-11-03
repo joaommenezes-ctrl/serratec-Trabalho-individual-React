@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom' // <-- ESTA LINHA ESTAVA FALTANDO
 import { InputVasco } from '../../Components/Input/Index'
 import { ButtonComponent } from '../../Components/Button'
 import styles from './style.module.css' 
@@ -36,10 +37,12 @@ export function Login() {
             />
           </div>
 
-          <ButtonComponent props="Entrar" />
+          <Link to="/memes" style={{ textDecoration: 'none', width: '100%' }}>
+            <ButtonComponent props="Entrar" />
+          </Link>
 
           <a href="#" className={styles.forgotPassword}>
-          Esqueceu sua senha?
+           Esqueceu sua senha?
           </a>
 
         </div>
