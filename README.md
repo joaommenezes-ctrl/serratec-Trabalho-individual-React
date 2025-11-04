@@ -50,8 +50,8 @@ O foco deste trabalho foi a estrutura, a comunicação entre componentes e a res
 ---
 ## 🚀 Funcionalidade Adicional: Navegação com React Router
 
-* **Para aprimorar a estrutura e a experiência de usuário deste projeto, implementei um sistema de rotas utilizando a biblioteca react-router-dom.
-* **Embora não fizesse parte do escopo original solicitado, utilizei o BrowserRouter para criar uma navegação fluida entre as diferentes páginas/componentes da aplicação, demonstrando um aprofundamento prático na ferramenta.
+* Para aprimorar a estrutura e a experiência de usuário deste projeto, implementei um sistema de rotas utilizando a biblioteca react-router-dom.
+* Embora não fizesse parte do escopo original solicitado, utilizei o BrowserRouter para criar uma navegação fluida entre as diferentes páginas/componentes da aplicação, demonstrando um aprofundamento prático na ferramenta.
 ---
 ### Obs: Os códigos foram copiados e colados do Bootstrap, porém realizei modificações da forma que julguei necessário, por isso não estou usando a dependência do mesmo, porém ela está instalada no projeto.
 ---
