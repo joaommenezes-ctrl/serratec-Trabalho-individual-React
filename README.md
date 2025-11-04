@@ -47,7 +47,12 @@ O foco deste trabalho foi a estrutura, a comunicação entre componentes e a res
 * **Galeria de Cards:** Uma nova tela que exibe uma coleção de memes, conforme o modelo apresentado em aula.
 * **Componente `Card`:** Cada meme é renderizado usando um componente `Card` , que recebe as informações (imagem, título, descrição) via `props`.
 * **Layout Responsivo (CSS):** A organização dos cards na tela foi construído seguindo uma FlexBox garantindo que a galeria se ajuste automaticamente em desktops, tablets e dispositivos móveis.
+---
+## 🚀 Funcionalidade Adicional: Navegação com React Router
 
+* **Para aprimorar a estrutura e a experiência de usuário deste projeto, implementei um sistema de rotas utilizando a biblioteca react-router-dom.
+* **Embora não fizesse parte do escopo original solicitado, utilizei o BrowserRouter para criar uma navegação fluida entre as diferentes páginas/componentes da aplicação, demonstrando um aprofundamento prático na ferramenta.
+---
 ### Obs: Os códigos foram copiados e colados do Bootstrap, porém realizei modificações da forma que julguei necessário, por isso não estou usando a dependência do mesmo, porém ela está instalada no projeto.
 ---
 
