@@ -19,7 +19,8 @@ export function Navegacao() {
         <div className={styles.links}>
           <a href="#" className={styles.navLink}>Ingressos</a>
           <a href="#" className={styles.navLink}>Planos</a>
-          <a href="#" className={styles.navLink}>Cartão Presente</a>
+          <a href="#" className={styles.navLink}>Sócio Torcedor</a>
+         
         </div>
 
         <div className={styles.authButtons}>

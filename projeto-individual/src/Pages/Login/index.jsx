@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom' // <-- ESTA LINHA ESTAVA FALTANDO
+import { Link } from 'react-router-dom' 
 import { InputVasco } from '../../Components/Input/Index'
 import { ButtonComponent } from '../../Components/Button'
 import styles from './style.module.css' 
@@ -37,7 +37,7 @@ export function Login() {
             />
           </div>
 
-          <Link to="/memes" style={{ textDecoration: 'none', width: '100%' }}>
+          <Link to="/memes">
             <ButtonComponent props="Entrar" />
           </Link>
 
