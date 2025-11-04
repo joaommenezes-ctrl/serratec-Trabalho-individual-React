@@ -1,11 +1,6 @@
 # Projeto de Desenvolvimento Web - Cadastro, Login e Memes
 
-<p align="center">
-  <img alt="Tecnologia" src="[https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)"/>
-  <img alt="Estilo" src="[https://img.shields.io/badge/CSS_Modules-000000?style=for-the-badge&logo=css3&logoColor=white](https://img.shields.io/badge/CSS_Modules-000000?style=for-the-badge&logo=css3&logoColor=white)"/>
-  <img alt="Framework" src="[https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)"/>
-  <img alt="UI" src="[https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)"/>
-</p>
+<p align="center">   <img alt="Tecnologia" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>   <img alt="Estilo" src="https://img.shields.io/badge/CSS_Modules-000000?style=for-the-badge&logo=css3&logoColor=white"/>   <img alt="Framework" src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>   <img alt="UI" src="https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white"/> </p>
 
 ## 👤 Desenvolvedor
 
