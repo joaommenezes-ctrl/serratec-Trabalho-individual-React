@@ -1,10 +1,10 @@
-# Projeto de Desenvolvimento Web - Cadastro e Login
+# Projeto de Desenvolvimento Web - Cadastro, Login e Memes
 
 <p align="center">
-  <img alt="Tecnologia" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img alt="Estilo" src="https://img.shields.io/badge/CSS_Modules-000000?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img alt="Framework" src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-  <img alt="UI" src="https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white"/>
+  <img alt="Tecnologia" src="[https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)"/>
+  <img alt="Estilo" src="[https://img.shields.io/badge/CSS_Modules-000000?style=for-the-badge&logo=css3&logoColor=white](https://img.shields.io/badge/CSS_Modules-000000?style=for-the-badge&logo=css3&logoColor=white)"/>
+  <img alt="Framework" src="[https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)"/>
+  <img alt="UI" src="[https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)"/>
 </p>
 
 ## 👤 Desenvolvedor
@@ -16,19 +16,20 @@
 
 ## 🚀 Sobre o Projeto
 
-Este projeto foi desenvolvido como avaliação para a matéria de Desenvolvimento Web. O objetivo principal foi aplicar na prática os conceitos de **componentização** em React, a **passagem de propriedades (props)** e o uso de **CSS Modules** para estilização encapsulada.
+Este projeto foi desenvolvido como avaliação para a matéria de Desenvolvimento Web. O objetivo principal foi aplicar na prática os conceitos vistos em aula, como **componentização** em React, a **passagem de propriedades (props)** e o uso de **CSS Modules** para estilização encapsulada.
 
-A aplicação simula uma plataforma com duas telas principais: uma para **Login** e outra para **Cadastro (Home)**.
+A aplicação simula uma plataforma com três telas principais: uma para **Login**, outra para **Cadastro (Home)** e uma galeria de **Memes**.
 
 ---
 
 ## 🎯 Conceitos Aplicados
 
-O foco deste trabalho foi a estrutura e a comunicação entre componentes:
+O foco deste trabalho foi a estrutura, a comunicação entre componentes e a responsividade:
 
-* **Componentização:** A interface foi dividida em componentes reutilizáveis, como `Input`, `Button` e `Navegacao`, permitindo um código mais limpo e de fácil manutenção.
-* **Passagem de Props:** Os componentes foram configurados dinamicamente através de `props`. Por exemplo, o componente `Input` recebe `placeholder`, `type` e `id`, enquanto o `Button` recebe o texto a ser exibido.
-* **CSS Modules:** Toda a estilização foi feita utilizando `.module.css`. Isso garante que os estilos de um componente não "vazem" e afetem outros, evitando conflitos de classes CSS.
+* **Componentização:** A interface foi dividida em componentes reutilizáveis, como `Input`, `Button`, `Navegacao` e `Card`, permitindo um código mais limpo e de fácil manutenção.
+* **Passagem de Props:** Os componentes foram configurados dinamicamente através de `props`. Por exemplo, o `Input` recebe `placeholder` e `type`, enquanto o `Card` recebe `imagem` e `titulo`.
+* **CSS Modules:** Toda a estilização foi feita utilizando `.module.css`. Isso garante que os estilos de um componente não "vazem" e afetem outros.
+* **Layout Responsivo:** Utilização de técnicas de CSS (como Flexbox ou CSS Grid, vistas em aula) e componentes do Bootstrap para garantir que a aplicação se adapte a diferentes tamanhos de tela.
 
 ---
 
@@ -46,6 +47,13 @@ O foco deste trabalho foi a estrutura e a comunicação entre componentes:
 * **Layout (Bootstrap Grid):** Os campos do formulário estão organizados utilizando o sistema de **Grid do Bootstrap** para criar um layout responsivo e alinhado.
 * **Seleção de Gênero (Material UI):** Para o campo "Gênero", foi utilizado o componente **Checkbox do Material UI (MUI)** para demonstrar a integração de bibliotecas de UI externas.
 
+### 3. Página de Memes
+
+* **Galeria de Cards:** Uma nova tela que exibe uma coleção de memes, conforme o modelo apresentado em aula.
+* **Componente `Card`:** Cada meme é renderizado usando um componente `Card` , que recebe as informações (imagem, título, descrição) via `props`.
+* **Layout Responsivo (CSS):** A organização dos cards na tela foi construído seguindo uma FlexBox garantindo que a galeria se ajuste automaticamente em desktops, tablets e dispositivos móveis.
+
+### Obs: Os códigos foram copiados e colados do Bootstrap, porém realizei modificações da forma que julguei necessário, por isso não estou usando a dependência do mesmo, porém ela está instalada no projeto.
 ---
 
 ## 💻 Como Rodar o Projeto
